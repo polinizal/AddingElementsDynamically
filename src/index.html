@@ -16,10 +16,9 @@
     </div>
     <script>
 
-document.addEventListener("click", function(){
-  function AppendElements(htmlStringList)
-{
-  for (let i = 0;i < 6;++i)
+document.body.addEventListener("click", function(){
+  
+  for (let i = 0;i < 5; i++)
   {
     var article = document.createElement('article');
     article.classList.add('message');
@@ -29,7 +28,7 @@ document.addEventListener("click", function(){
     document.body.appendChild(article);
   }
 }
-});
+)
 
     </script>
   </body>
